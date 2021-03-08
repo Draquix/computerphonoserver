@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/tasks">Todo list API</a></li>
+                <li><a href="/journey">Hero's Journey JS RPG</a></li>
+            </ul>
+        </nav>
+        <h1> Draquix's Home Server Home Page At Home</h1>
+    </header>
+    <main>
+        <h2>Displaying the Todo Task: <%=task.name%></h2>
+        <p>Status: <%=task.status%></p>
+        <p>Description: *coming soon*</p>
+        <a href="/delete/<%=task._id%>">
+    </main>
+</body>
+</html>

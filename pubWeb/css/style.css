@@ -1,0 +1,31 @@
+header {
+    background-color: black;
+    color: red;
+    text-shadow: 3px 3px 3px slategray;
+    display: inline-block;
+    width:100%;
+}
+
+nav ul {
+    float:left;
+    display:inline-block;
+    text-decoration: none;
+    padding:15px;
+    background-color: teal;
+    border-radius: 20px;
+    color:tomato;
+}
+h1 {
+    margin-left:0 auto;
+    font-size: 36px;
+    font-weight: bold;
+    float:left;
+}
+body {
+    background-color:lightblue
+    
+}
+footer{
+    background-color: black;
+    color:red;
+}
